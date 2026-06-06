@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DON ROHO</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+.hero{
+    min-height:100vh;
+    padding:80px 20px;
+    background:url("don-roho.jpg") center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    position:relative;
+}
+
+.hero::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.55);
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+    color:rgb(238, 191, 191);
+    max-width:800px;
+    padding:20px;
+}
+
+.logo{
+    width:120px;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:clamp(2.5rem,8vw,6rem);
+    letter-spacing:3px;
+    margin-bottom:15px;
+}
+
+.hero h2{
+    font-size:clamp(1rem,4vw,1.5rem);
+    color:#764a4a;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:clamp(0.95rem,3vw,1.1rem);
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    padding:14px 30px;
+    border:none;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn-primary{
+    background:#0d0202;
+    color:#fffefe;
+}
+
+.btn-primary:hover{
+    background:#ddd;
+}
+
+.btn-secondary{
+    background:transparent;
+    color:white;
+    border:2px solid white;
+}
+
+.btn-secondary:hover{
+    background:white;
+    color:black;
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <!-- Logo -->
+        
+
+        <!-- Artist Name -->
+        <h1>DON ROHO</h1>
+
+        <!-- Tagline -->
+        <h2>Tech House • Minimal Deep Tech</h2>
+
+        <!-- Description -->
+        <p>
+            For the Love of Music.
+        </p>
+
+        <!-- Buttons -->
+        <div class="buttons">
+            <a href="https://wa.me/917799033990" class="btn btn-primary">Book Now</a>
+            <a href="https://on.soundcloud.com/kMmMIxoW949SAEvj8c" class="btn btn-secondary">Listen to Music</a>
+        </div>
+
+    </div>
+
+</section>
+<!-- ABOUT SECTION -->
+
+<section class="about" id="about">
+    <div class="about-container">
+
+        <div class="about-image">
+            <img src="about-don-roho.jpg" alt="Don Roho">
+        </div>
+
+        <div class="about-content">
+            <span class="section-tag">ABOUT DON ROHO</span>
+
+            <h2>Emerging  House DJ & Producer</h2>
+
+            <p>
+                DON ROHO is an emerging Tech House DJ known for delivering
+                deep grooves, hypnotic rhythms, and high-energy underground
+                sounds. His sets blend modern Tech House with Minimal Deep Tech
+                influences, creating immersive dancefloor experiences.
+            </p>
+
+            <p>
+                Drawing inspiration from globally recognized artists such as
+                Jamie Jones, Michael Bibi, and Marco Carola, DON ROHO has
+                developed a signature sound that balances underground energy
+                with festival-ready vibes.
+            </p>
+
+            <p>
+                As the founder of <strong>Rumours Only</strong>, he continues
+                to build a community around authentic house music culture,
+                connecting music lovers through memorable events and unique
+                musical journeys.
+            </p>
+
+            <div class="about-highlights">
+                <div class="highlight">
+                    <h3>Genre</h3>
+                    <p>Tech House & Minimal Deep Tech</p>
+                </div>
+
+                <div class="highlight">
+                    <h3>Inspired By</h3>
+                    <p>Jamie Jones • Michael Bibi • Marco Carola</p>
+                </div>
+
+                <div class="highlight">
+                    <h3>Founder</h3>
+                    <p>Rumours Only  <a href="https://www.instagram.com/rumours_only?igsh=MXMydGowODZ1eHpiMA=="
+               target="_blank">
+               <img src="image.jpg" class="insta-icon" alt="Instagram">
+
+            </a></p>
+                </div>
+
+                <div class="highlight">
+                    <h3>Sound</h3>
+                    <p>Underground & Festival Energy</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+</section>
+<section id="music" class="music">
+    <h2>Listen To My Music</h2>
+
+    <div class="music-card">
+        <h3>SoundCloud</h3>
+        <p>Explore the latest Tech House & Minimal Deep Tech sets.</p>
+
+        <a href="https://on.soundcloud.com/kMmMIxoW949SAEvj8c" class="btn btn-secondary">Listen to Music</a>
+    </div>
+</section>
+<section id="contact" class="contact">
+
+    <h2>Bookings & Contact</h2>
+
+    <div class="contact-container">
+
+        <div class="contact-card">
+            <h3>Instagram</h3>
+
+            <a href="https://www.instagram.com/rumours_only?igsh=MXMydGowODZ1eHpiMA=="
+               target="_blank">
+               Follow @rumours_only
+            </a>
+        </div>
+
+        <div class="contact-card">
+            <h3>WhatsApp</h3>
+
+            <a href="https://wa.me/917799033990"
+               target="_blank">
+               +91 77990 33990
+            </a>
+        </div>
+
+        <div class="contact-card">
+            <h3>Email</h3>
+
+            <a href="mailto:djdonroho@gmail.com">
+               djdonroho@gmail.com
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<style>
+.about{
+    padding:100px 10%;
+    background:#0f0f0f;
+    color:white;
+}
+
+.about-container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+}
+
+.about-image img{
+    width:100%;
+    border-radius:20px;
+    object-fit:cover;
+}
+
+.section-tag{
+    color:#888;
+    font-size:14px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+
+.about-content h2{
+    font-size:42px;
+    margin:15px 0 25px;
+}
+
+.about-content p{
+    color:#d1d1d1;
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+.about-highlights{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+    margin-top:30px;
+}
+
+.highlight{
+    background:#181818;
+    padding:20px;
+    border-radius:15px;
+}
+
+.highlight h3{
+    margin-bottom:10px;
+    color:white;
+}
+
+.highlight p{
+    margin:0;
+    color:#aaa;
+}
+
+@media(max-width:768px){
+
+    .about{
+        padding:60px 20px;
+    }
+
+    .about-container{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .about-content h2{
+        font-size:2rem;
+    }
+
+    .about-highlights{
+        grid-template-columns:1fr;
+    }
+
+    .highlight{
+        padding:15px;
+    }
+
+}
+.music{
+    padding:100px 10%;
+    background:#050505;
+    text-align:center;
+    color:white;
+}
+
+.music h2{
+    font-size:42px;
+    margin-bottom:40px;
+}
+
+.music-card{
+    max-width:600px;
+    margin:auto;
+    background:#111;
+    padding:40px;
+    border-radius:20px;
+}
+
+.music-card p{
+    color:#bbb;
+    margin:20px 0;
+}
+
+.music-btn{
+    display:inline-block;
+    padding:14px 30px;
+    background:#00f5ff;
+    color:black;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.music-btn:hover{
+    transform:translateY(-3px);
+}
+
+.contact{
+    padding:100px 10%;
+    background:#0f0f0f;
+    text-align:center;
+    color:white;
+}
+
+.contact h2{
+    font-size:2rem;
+    margin-bottom:50px;
+}
+
+.contact-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.contact-card{
+    background:#181818;
+    padding:30px;
+    border-radius:20px;
+}
+
+.contact-card h3{
+    margin-bottom:15px;
+}
+
+.contact-card a{
+    color:#00f5ff;
+    text-decoration:none;
+    word-break:break-word;
+}
+
+.contact-card a:hover{
+    color:white;
+}
+
+footer{
+    background:black;
+    color:#777;
+    text-align:center;
+    padding:25px;
+
+}
+.insta-icon{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+@media(max-width:768px){
+
+    .buttons{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .btn{
+        width:100%;
+        max-width:280px;
+        text-align:center;
+    }
+
+}
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+html,body{
+    overflow-x:hidden;
+}
+.navbar{
+    flex-wrap:wrap;
+}
+</style>
+
+
+</body>
+</html>
