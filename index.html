@@ -14,43 +14,36 @@
 }
 
 .hero{
-    min-height:100vh;
-    padding:80px 20px;
-    background:url("don-roho.jpg") center/cover no-repeat;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
+    height:100vh;
+    width:100%;
+    background:url("don-roho.jpg") center center no-repeat;
+    background-size:cover;
+    background-color:#b11207; /* matches image background */
     position:relative;
+    overflow:hidden;
 }
 
-.hero::before{
-    content:"";
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background:rgba(0,0,0,0.55);
-}
+
 
 .hero-content{
-    position:relative;
+    position:absolute;
+    bottom:50px;
+    left:50%;
+    transform:translateX(-50%);
+    text-align:center;
     z-index:2;
-    color:rgb(238, 191, 191);
-    max-width:800px;
-    padding:20px;
+    width:100%;
 }
-
 .logo{
     width:120px;
     margin-bottom:20px;
 }
 
 .hero h1{
-    font-size:clamp(2.5rem,8vw,6rem);
-    letter-spacing:3px;
-    margin-bottom:15px;
+    font-size:clamp(3rem,8vw,7rem);
+    color:#f2a0a0;
+    margin-bottom:10px;
+    letter-spacing:4px;
 }
 
 .hero h2{
@@ -113,14 +106,10 @@
         
 
         <!-- Artist Name -->
-        <h1>DON ROHO</h1>
+
 
         <!-- Tagline -->
-        <h2>Tech House • Minimal Deep Tech</h2>
-
-        <!-- Description -->
-        <p>
-            For the Love of Music.
+        
         </p>
 
         <!-- Buttons -->
